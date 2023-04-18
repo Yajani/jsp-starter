@@ -29,5 +29,7 @@
 
     <% } %>
 
+    <a href="/dancer/join">재등록</a>
+
 </body>
 </html>

@@ -1,5 +1,6 @@
 package com.jsp;
 
+import com.jsp.chap01.servlet.HelloServlet;
 import org.apache.catalina.LifecycleException;
 import org.apache.catalina.WebResourceRoot;
 import org.apache.catalina.core.StandardContext;
@@ -38,5 +39,7 @@ public class JspStarterMain {
 
         tomcat.start();
         tomcat.getServer().await();
+
+
     }
 }
