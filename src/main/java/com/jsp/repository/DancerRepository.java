@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 // 댄서 정보 저장소
 public class DancerRepository {
 
-    private final Map<String, Dancer> dancerMap = new HashMap<>();
+    private static final Map<String, Dancer> dancerMap = new HashMap<>();
 
     // 댄서 저장 기능
     public void save(String name, String crewName,
@@ -50,6 +50,9 @@ public class DancerRepository {
             dancerList.add(dancer);
         }
         return dancerList;*/
+    }
+    public void delete(String name){
+        dancerMap.remove(name);
     }
 
 }

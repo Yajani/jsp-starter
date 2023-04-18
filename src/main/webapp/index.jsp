@@ -8,6 +8,6 @@
 </head>
 <body>
     <h1>Welcome! 꾸꾸까까야</h1>
-    <a href="/dancer.jsp">댄스 등록하러 가자 </a>
+    <a href="/dancer/join">댄스 등록하러 가자 </a>
 </body>
 </html>
